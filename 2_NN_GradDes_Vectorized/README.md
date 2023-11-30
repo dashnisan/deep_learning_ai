@@ -21,6 +21,8 @@ Concerning the false positives (precision score) and false negatives (recall sco
  
 ## Files and Folders:
 <ul>
-<li>dnn_grad_desc: executable for Linux for deep neural networks with specified depth</li>
-<li>_internal: directory with other necessary files for execution</li>
+<li>dnn_grad_desc: Executable file for Linux for deep neural networks with specified depths</li>
+<li>_internal: Directory with other necessary files for execution</li>
+<li>math_and_theory.pdf: Bonus material with the background of neural networks</li>
+<li>screenshots.pdf: Some images of program execution</li>
 </ul>
