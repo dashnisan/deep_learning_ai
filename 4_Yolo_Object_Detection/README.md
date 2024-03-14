@@ -5,13 +5,14 @@ Here we use transfer learning from a pretrained YOLO model in order to make obje
 The YOLO algorithm is in term of resources usage much more efficient than algorithms based on the "sliding windows"
 method. However it requires also a lot of data to be trained; that is wha we selected to use a pre-trained model as base.
 
-The base model used is the implementation of the C-Yolo version "Darknet" for Keras. We use it to detect objects in 
-pictures. The outputs are stored to the folder "out".
+The base model used is the implementation of the Yolo version "Darknet" for TF-Keras. We use it to detect objects in pictures. 
 
-Because of the ethical code of this course, the main functions of this exercise have been compiled and invoked from the 
-main script.
+The ethical code of this course limits the publication of related work. Threfore the main functions of this exercise have been compiled and are invoked from the
+main script **yolo.py**.
 
-Please note that the file containing the weights of the pre-trained model is bigger than 100MB. Because of this is not loaded to this repository. It is normally found under model_data/variables/variables.data-00000-of-00001
+Please **note that the file containing the weights of the pre-trained model is bigger than 100MB**. Because of storage policies this file is not loaded to this repository. It is normally found under *model_data/variables/variables.data-00000-of-00001*.
+
+**Predictions on test images with the implemented algorithm are found in the folder *out*.**
 
 ## REFERENCES
 
